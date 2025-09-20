@@ -23,5 +23,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}   # ใช้ token ของ Actions
-          publish_dir: ./dist                         # เปลี่ยนให้ตรงโฟลเดอร์ build คุณ
+          publish_dir: ./dist/spa                       # เปลี่ยนให้ตรงโฟลเดอร์ build คุณ
           # force_orphan: true                        # เปิดถ้าอยาก reset ประวัติใน gh-pages
